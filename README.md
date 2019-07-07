@@ -51,6 +51,7 @@ It is implemented using the translate module available in python.
 A Bookstore designed with the help of tkinter and sqlite3 database functionality . It allows you to add details about books that you read frequently into the database so that you can search about them whenever required. Also a online book search functionality is provided which helps the user to search for a particular book online using its title.
 
 <p align="center"><img src="/Python-Assistant/screenshots/bookstore.JPG"></p>
+
 The online searching of books is performed with the help of **googlebooksapi** which provides results in json format. 
 
 ## Voice Assistant Tab:
@@ -66,4 +67,27 @@ A simple music player made using tkinter for entertainment purpose. It lets you 
 
 The sound and other music player functionalities are implemented with the help of **pygame mixer** module and file manipulation techniques in python respectively.
 
+## Images Tab :
+With the emergance of computer vision python has made it very easy to gain high level understanding from digital images or videos.
+The Image Tab provides functionalities to perform different operations on images so that they can be further used in data analysis.
+The different options that are provided are - detecting edges,blurring an image , extract text , transposing,creating thumbnails, resizing etc. 
+
+An Additional functionality is provided for downloading images from web. you can just type something and you will find that related images are downloaded in the specified output directory.
+
+This is implemented using the google_images_download module in python. 
+
+The following arguments are provided as a dictionary to the response object.
+
+arguments ={
+             "keywords": self.downloadimg.get(),
+             "format": "jpg",
+             "limit": 4,
+             "print_urls": True,
+             "size": "medium",
+             "aspect_ratio": "panoramic",
+             "output_directory": r"C:\Users\hp\Desktop\mynewimages",
+             "safe_search": True,
+             "help": True
+            
+            }
 
