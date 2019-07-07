@@ -2,7 +2,7 @@ import pyttsx3
 import wolframalpha
 import speech_recognition as sr
 
-client = wolframalpha.Client('L269XW-J26V9X4HP3')
+client = wolframalpha.Client('Your api key')
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
