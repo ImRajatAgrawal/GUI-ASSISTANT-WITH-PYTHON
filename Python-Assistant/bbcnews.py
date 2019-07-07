@@ -47,7 +47,7 @@ def NewsFromBBC():
 
 def getweather(city_name):
     # Enter your API key here
-    api_key = "a634950c212289722f8125b2fc6fea2a"
+    api_key = "Your Api key"
 
     # base_url variable to store url
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
