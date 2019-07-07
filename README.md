@@ -1,16 +1,16 @@
 ## PROJECT NAME : 
 A GUI Assistant with Python
 
-## AIM AND OBJECTIVES : 
+# AIM AND OBJECTIVES : 
 To Automate the various tasks that are performed frequently by a user with the help of a responsive GUI and                             embedded python frameworks and also develop a good understanding and interest in trending python technologies.
 
-## BENEFITS :
+# BENEFITS :
  1. Ease of Access
  2. Entertainment
  3. Developing Advanced python programming skills.
  4. Broaden the concept of artificial intelligence.
  
- ## IMPLEMENTATION : 
+ # IMPLEMENTATION : 
  Initial Phase is GUI Development Using Tkinter.
  The GUI root window consists of a TabControl Panel with 7 Tabs -
  - Home
@@ -52,3 +52,18 @@ A Bookstore designed with the help of tkinter and sqlite3 database functionality
 
 <p align="center"><img src="/Python-Assistant/screenshots/bookstore.JPG"></p>
 The online searching of books is performed with the help of **googlebooksapi** which provides results in json format. 
+
+## Voice Assistant Tab:
+An interactive Voice Assistant named 'JARVIS' to whom you can ask questions and also provide commands to perform tasks like searching for something, opening tools like youtube, google etc. some more AI functionalities are like whenever you open the voice assistant tab it greets you with a message and also you can chat by asking basic questions.
+<p align="center"><img src="/Python-Assistant/screenshots/voiceassistant.JPG"></p>
+
+The interaction functionality is implemented using the **speech_recognition** module and the voice of 'JARVIS' is chosen from voice property available in the pyttsx3 library. The search results are fetched from the options available like google,amazon-books,youtube etc. Apart from this you can ask general knowledge questions whose results are fetched from **WolframeAplha** module in python. 
+
+## Music Tab :
+A simple music player made using tkinter for entertainment purpose. It lets you to add music tracks to your playlist and play them whenever you want. Some more basic functionalities like play,pause,rewind,stop, adjust music volume are also provided.
+
+<p align="center"><img src="/Python-Assistant/screenshots/musicplayer.JPG"></p>
+
+The sound and other music player functionalities are implemented with the help of **pygame mixer** module and file manipulation techniques in python respectively.
+
+
